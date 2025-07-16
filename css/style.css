@@ -1,0 +1,101 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header h3{
+    font-size: 25px;
+    color: black;
+}
+
+
+aside{
+    width: 300px;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding-top: 100px;
+}
+.sidebar-menus{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sidebar-menus img{
+    width: 30px;
+}
+.sidebar-menus li{
+    transition: 0.5s;
+}
+.sidebar-menus li a{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: black;
+}
+.sidebar-menus li :hover{
+    background-color: aqua;
+}
+
+
+
+main{
+    margin-top: 150px;
+    margin-left: 320px;
+    padding-right: 20px;
+}
+table , thead , tbody , th , tr , td{
+    border-collapse: collapse;
+}
+th , td{
+    padding: 10px 20px;
+}
+td{
+    width: 300px;
+}
+table{
+    border-radius: 10px;
+}
+table , thead , tr , th{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.title img{
+    width: 100px;
+}
+.title p{
+    width: 300px;
+    color: black;
+    font-family: monospace;
+}
